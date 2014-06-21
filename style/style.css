@@ -1,0 +1,21 @@
+@CHARSET "UTF-8";
+
+.ListSelector {
+	padding: 15px;
+	width: 600px;
+	height: 600px;
+	background-color: #123456;
+}
+
+.float-left {
+	float: left;
+}
+
+.float-right {
+	float: right;
+}
+
+.button {
+	float:none;
+	width: 800px;
+}
