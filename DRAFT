@@ -1,0 +1,7 @@
+DB STRUCTURE
+int: 		id
+varchar 64:	item
+varchar 64:	place
+int 32: 	clicks
+varchar 32: provider	
+varchar 32: urlid
