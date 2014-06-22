@@ -1,10 +1,21 @@
 @CHARSET "UTF-8";
 
+/* All colours are from http://flatuicolors.com/ 
+   Design copied from http://designmodo.github.io/Flat-UI/ */
+
+.main-container {
+	margin: auto;
+	width: 1024px;
+}
+
 .ListSelector {
-	padding: 15px;
-	width: 600px;
-	height: 600px;
-	background-color: #123456;
+	height: auto;
+	background-color: #f1c40f; /* sunflower */
+}
+
+.List {
+	margin: 20px;
+	width: 470px;
 }
 
 .float-left {
@@ -15,7 +26,99 @@
 	float: right;
 }
 
+.ListHeader {
+	margin: 1px;
+	height: 40px;
+	padding-left: 30px;
+	
+	background-color: #f39c12; 
+	
+	font-family: cursive;
+	font-weight:bold;
+	color: #FFFFFF; 
+	
+	/* Internet Explorer 10 */
+	display:-ms-flexbox;
+	/*-ms-flex-pack:center;*/
+	-ms-flex-align:center;
+	
+	/* Firefox */
+	display:-moz-box;
+	/*-moz-box-pack:center;*/
+	-moz-box-align:center;
+	
+	/* Safari, Opera, and Chrome */
+	display:-webkit-box;
+	/*-webkit-box-pack:center;*/
+	-webkit-box-align:center;
+	
+	/* W3C */
+	display:box;
+	/*box-pack:center;*/
+	box-align:center;
+}
+
+.ListHeader:hover {	
+	background-color: #e67e22; 
+	margin: 2px;
+	height: 38px;
+}
+
+input[type=checkbox] {
+	visibility: hidden;
+}
+
+.ListItem {
+	margin: 1px;
+	height: 40px;
+	
+	background-color: #f39c12; 
+	
+	font-family: cursive;
+	font-weight:bold;
+	color: #FFFFFF; 
+	
+	/* Internet Explorer 10 */
+	display:-ms-flexbox;
+	/*-ms-flex-pack:center;*/
+	-ms-flex-align:center;
+	
+	/* Firefox */
+	display:-moz-box;
+	/*-moz-box-pack:center;*/
+	-moz-box-align:center;
+	
+	/* Safari, Opera, and Chrome */
+	display:-webkit-box;
+	/*-webkit-box-pack:center;*/
+	-webkit-box-align:center;
+	
+	/* W3C */
+	display:box;
+	/*box-pack:center;*/
+	box-align:center;
+}
+
+.ListItem:hover {	
+	background-color: #e67e22; /* orange */
+	margin: 2px;
+	height: 38px;
+}
+
+.checked {
+	background-color:#d35400;
+	
+	background-image:url('../imgs/tick-white.png');
+	background-repeat: no-repeat;
+	background-position: 95%;
+	background-size: 25px 25px;
+}
+
 .button {
 	float:none;
 	width: 800px;
+}
+
+.clear { 
+	clear: both; 
 }
