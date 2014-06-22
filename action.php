@@ -1,14 +1,19 @@
 <?php
-$act = $_GET['act'];
+$items = $_POST['items'];
 
-switch ($act) {
-	case "check":
-		echo "check";
-		break;
-	case "export":
-		echo "exoprt";
-		break;
-	default:
-		echo "default";
+foreach ($items as $item){
+	echo $item."<br />";
+
 }
+
+// switch ($act) {
+// 	case "check":
+// 		echo "check";
+// 		break;
+// 	case "export":
+// 		echo "exoprt";
+// 		break;
+// 	default:
+// 		echo "default";
+// }
 ?>
