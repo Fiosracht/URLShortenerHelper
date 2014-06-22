@@ -1,7 +1,21 @@
 DB STRUCTURE
+
+list
 int: 		id
-varchar 64:	item
-varchar 64:	place
+int:		itemid
+int:		placeid
+int:		providerid
+varchar 32: urlidstring
 int 32: 	clicks
-varchar 32: provider	
-varchar 32: urlid
+
+items
+int:		id
+varchar 64:	name
+
+places
+int:		id
+varchar 64:	name
+
+providers
+int:		id
+varchar 32: name
